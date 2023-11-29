@@ -4,7 +4,7 @@ CMake Error at C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share
 Call Stack (most recent call first):
   C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
   C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindBoost.cmake:2377 (find_package_handle_standard_args)
-  CMakeLists.txt:9 (find_package)
+  CMakeLists.txt:11 (find_package)
 
 
 -- Configuring incomplete, errors occurred!
