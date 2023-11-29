@@ -1,3 +1,0 @@
-C:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-smcque/CMakeFiles/cmTC_80479.dir
-C:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-smcque/CMakeFiles/edit_cache.dir
-C:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-smcque/CMakeFiles/rebuild_cache.dir
