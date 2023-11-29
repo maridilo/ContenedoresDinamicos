@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <boost/lexical_cast.hpp>
+#include <boost/ejercicio6.hpp>
 
 int main() {
     std::string s = "12345";
