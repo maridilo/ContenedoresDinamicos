@@ -49,38 +49,8 @@ cmake_ninja_workdir = C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamic
 
 build cmake_object_order_depends_target_ContenedoresDinamicos: phony || CMakeFiles/ContenedoresDinamicos.dir
 
-build CMakeFiles/ContenedoresDinamicos.dir/1.cpp.obj: CXX_COMPILER__ContenedoresDinamicos_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/1.cpp || cmake_object_order_depends_target_ContenedoresDinamicos
-  DEP_FILE = CMakeFiles\ContenedoresDinamicos.dir\1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ContenedoresDinamicos.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContenedoresDinamicos.dir
-
-build CMakeFiles/ContenedoresDinamicos.dir/2.cpp.obj: CXX_COMPILER__ContenedoresDinamicos_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/2.cpp || cmake_object_order_depends_target_ContenedoresDinamicos
-  DEP_FILE = CMakeFiles\ContenedoresDinamicos.dir\2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ContenedoresDinamicos.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContenedoresDinamicos.dir
-
-build CMakeFiles/ContenedoresDinamicos.dir/3.cpp.obj: CXX_COMPILER__ContenedoresDinamicos_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/3.cpp || cmake_object_order_depends_target_ContenedoresDinamicos
-  DEP_FILE = CMakeFiles\ContenedoresDinamicos.dir\3.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ContenedoresDinamicos.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContenedoresDinamicos.dir
-
-build CMakeFiles/ContenedoresDinamicos.dir/4.cpp.obj: CXX_COMPILER__ContenedoresDinamicos_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/4.cpp || cmake_object_order_depends_target_ContenedoresDinamicos
-  DEP_FILE = CMakeFiles\ContenedoresDinamicos.dir\4.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ContenedoresDinamicos.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContenedoresDinamicos.dir
-
-build CMakeFiles/ContenedoresDinamicos.dir/5.cpp.obj: CXX_COMPILER__ContenedoresDinamicos_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/5.cpp || cmake_object_order_depends_target_ContenedoresDinamicos
-  DEP_FILE = CMakeFiles\ContenedoresDinamicos.dir\5.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ContenedoresDinamicos.dir
-  OBJECT_FILE_DIR = CMakeFiles\ContenedoresDinamicos.dir
-
-build CMakeFiles/ContenedoresDinamicos.dir/6.cpp.obj: CXX_COMPILER__ContenedoresDinamicos_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/6.cpp || cmake_object_order_depends_target_ContenedoresDinamicos
-  DEP_FILE = CMakeFiles\ContenedoresDinamicos.dir\6.cpp.obj.d
+build CMakeFiles/ContenedoresDinamicos.dir/main.cpp.obj: CXX_COMPILER__ContenedoresDinamicos_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/main.cpp || cmake_object_order_depends_target_ContenedoresDinamicos
+  DEP_FILE = CMakeFiles\ContenedoresDinamicos.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ContenedoresDinamicos.dir
   OBJECT_FILE_DIR = CMakeFiles\ContenedoresDinamicos.dir
@@ -93,7 +63,7 @@ build CMakeFiles/ContenedoresDinamicos.dir/6.cpp.obj: CXX_COMPILER__Contenedores
 #############################################
 # Link the executable ContenedoresDinamicos.exe
 
-build ContenedoresDinamicos.exe: CXX_EXECUTABLE_LINKER__ContenedoresDinamicos_Debug CMakeFiles/ContenedoresDinamicos.dir/1.cpp.obj CMakeFiles/ContenedoresDinamicos.dir/2.cpp.obj CMakeFiles/ContenedoresDinamicos.dir/3.cpp.obj CMakeFiles/ContenedoresDinamicos.dir/4.cpp.obj CMakeFiles/ContenedoresDinamicos.dir/5.cpp.obj CMakeFiles/ContenedoresDinamicos.dir/6.cpp.obj
+build ContenedoresDinamicos.exe: CXX_EXECUTABLE_LINKER__ContenedoresDinamicos_Debug CMakeFiles/ContenedoresDinamicos.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ContenedoresDinamicos.dir

@@ -1,8 +1,12 @@
 # ninja log v5
-12	472	7228934644338673	CMakeFiles/ContenedoresDinamicos.dir/2.cpp.obj	4236da7c83bf7f3d
-0	548	7228934644667800	CMakeFiles/ContenedoresDinamicos.dir/3.cpp.obj	abb924aaa72fb83
+4	679	7229028584267207	CMakeFiles/ContenedoresDinamicos.dir/2.cpp.obj	4236da7c83bf7f3d
 474	750	7228934647147328	CMakeFiles/ContenedoresDinamicos.dir/4.cpp.obj	46c90fac89c8e9b7
+0	548	7228934644667800	CMakeFiles/ContenedoresDinamicos.dir/3.cpp.obj	abb924aaa72fb83
 548	824	7228934647257542	CMakeFiles/ContenedoresDinamicos.dir/5.cpp.obj	cb550c8b6df5e761
 750	1056	7228934650274163	CMakeFiles/ContenedoresDinamicos.dir/6.cpp.obj	ecc3f648a8591bd2
-31	1411	7228934653834575	CMakeFiles/ContenedoresDinamicos.dir/1.cpp.obj	ab86355d01317b38
-1412	1955	7228934659218223	ContenedoresDinamicos.exe	ef8234cd10d7f59b
+5	788	7229023834696355	CMakeFiles/ContenedoresDinamicos.dir/1.cpp.obj	ab86355d01317b38
+2	208	7229030642982511	build.ninja	3c3fbb32d9b993bc
+671	1124	7229024189111714	ContenedoresDinamicos.exe	ef8234cd10d7f59b
+3	511	7229030642982511	build.ninja	3c3fbb32d9b993bc
+0	1037	7229030654203122	CMakeFiles/ContenedoresDinamicos.dir/main.cpp.obj	dbae49f2c8858657
+1038	1352	7229030657292598	ContenedoresDinamicos.exe	6d6ab2352d013b1f
