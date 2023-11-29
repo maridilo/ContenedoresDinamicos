@@ -73,6 +73,204 @@ build ContenedoresDinamicos.exe: CXX_EXECUTABLE_LINKER__ContenedoresDinamicos_De
   TARGET_IMPLIB = libContenedoresDinamicos.dll.a
   TARGET_PDB = ContenedoresDinamicos.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio1
+
+
+#############################################
+# Order-only phony target for ejercicio1
+
+build cmake_object_order_depends_target_ejercicio1: phony || CMakeFiles/ejercicio1.dir
+
+build CMakeFiles/ejercicio1.dir/ejercicio1.cpp.obj: CXX_COMPILER__ejercicio1_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/ejercicio1.cpp || cmake_object_order_depends_target_ejercicio1
+  DEP_FILE = CMakeFiles\ejercicio1.dir\ejercicio1.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ejercicio1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejercicio1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio1
+
+
+#############################################
+# Link the executable ejercicio1.exe
+
+build ejercicio1.exe: CXX_EXECUTABLE_LINKER__ejercicio1_Debug CMakeFiles/ejercicio1.dir/ejercicio1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejercicio1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejercicio1.exe
+  TARGET_IMPLIB = libejercicio1.dll.a
+  TARGET_PDB = ejercicio1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio2
+
+
+#############################################
+# Order-only phony target for ejercicio2
+
+build cmake_object_order_depends_target_ejercicio2: phony || CMakeFiles/ejercicio2.dir
+
+build CMakeFiles/ejercicio2.dir/ejercicio2.cpp.obj: CXX_COMPILER__ejercicio2_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/ejercicio2.cpp || cmake_object_order_depends_target_ejercicio2
+  DEP_FILE = CMakeFiles\ejercicio2.dir\ejercicio2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ejercicio2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejercicio2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio2
+
+
+#############################################
+# Link the executable ejercicio2.exe
+
+build ejercicio2.exe: CXX_EXECUTABLE_LINKER__ejercicio2_Debug CMakeFiles/ejercicio2.dir/ejercicio2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejercicio2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejercicio2.exe
+  TARGET_IMPLIB = libejercicio2.dll.a
+  TARGET_PDB = ejercicio2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio3
+
+
+#############################################
+# Order-only phony target for ejercicio3
+
+build cmake_object_order_depends_target_ejercicio3: phony || CMakeFiles/ejercicio3.dir
+
+build CMakeFiles/ejercicio3.dir/ejercicio3.cpp.obj: CXX_COMPILER__ejercicio3_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/ejercicio3.cpp || cmake_object_order_depends_target_ejercicio3
+  DEP_FILE = CMakeFiles\ejercicio3.dir\ejercicio3.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ejercicio3.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejercicio3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio3
+
+
+#############################################
+# Link the executable ejercicio3.exe
+
+build ejercicio3.exe: CXX_EXECUTABLE_LINKER__ejercicio3_Debug CMakeFiles/ejercicio3.dir/ejercicio3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejercicio3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejercicio3.exe
+  TARGET_IMPLIB = libejercicio3.dll.a
+  TARGET_PDB = ejercicio3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio4
+
+
+#############################################
+# Order-only phony target for ejercicio4
+
+build cmake_object_order_depends_target_ejercicio4: phony || CMakeFiles/ejercicio4.dir
+
+build CMakeFiles/ejercicio4.dir/ejercicio4.cpp.obj: CXX_COMPILER__ejercicio4_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/ejercicio4.cpp || cmake_object_order_depends_target_ejercicio4
+  DEP_FILE = CMakeFiles\ejercicio4.dir\ejercicio4.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ejercicio4.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejercicio4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio4
+
+
+#############################################
+# Link the executable ejercicio4.exe
+
+build ejercicio4.exe: CXX_EXECUTABLE_LINKER__ejercicio4_Debug CMakeFiles/ejercicio4.dir/ejercicio4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejercicio4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejercicio4.exe
+  TARGET_IMPLIB = libejercicio4.dll.a
+  TARGET_PDB = ejercicio4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio5
+
+
+#############################################
+# Order-only phony target for ejercicio5
+
+build cmake_object_order_depends_target_ejercicio5: phony || CMakeFiles/ejercicio5.dir
+
+build CMakeFiles/ejercicio5.dir/ejercicio5.cpp.obj: CXX_COMPILER__ejercicio5_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/ejercicio5.cpp || cmake_object_order_depends_target_ejercicio5
+  DEP_FILE = CMakeFiles\ejercicio5.dir\ejercicio5.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ejercicio5.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejercicio5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio5
+
+
+#############################################
+# Link the executable ejercicio5.exe
+
+build ejercicio5.exe: CXX_EXECUTABLE_LINKER__ejercicio5_Debug CMakeFiles/ejercicio5.dir/ejercicio5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejercicio5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejercicio5.exe
+  TARGET_IMPLIB = libejercicio5.dll.a
+  TARGET_PDB = ejercicio5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio6
+
+
+#############################################
+# Order-only phony target for ejercicio6
+
+build cmake_object_order_depends_target_ejercicio6: phony || CMakeFiles/ejercicio6.dir
+
+build CMakeFiles/ejercicio6.dir/ejercicio6.cpp.obj: CXX_COMPILER__ejercicio6_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/ejercicio6.cpp || cmake_object_order_depends_target_ejercicio6
+  DEP_FILE = CMakeFiles\ejercicio6.dir\ejercicio6.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ejercicio6.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejercicio6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio6
+
+
+#############################################
+# Link the executable ejercicio6.exe
+
+build ejercicio6.exe: CXX_EXECUTABLE_LINKER__ejercicio6_Debug CMakeFiles/ejercicio6.dir/ejercicio6.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejercicio6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejercicio6.exe
+  TARGET_IMPLIB = libejercicio6.dll.a
+  TARGET_PDB = ejercicio6.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +299,18 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build ContenedoresDinamicos: phony ContenedoresDinamicos.exe
 
+build ejercicio1: phony ejercicio1.exe
+
+build ejercicio2: phony ejercicio2.exe
+
+build ejercicio3: phony ejercicio3.exe
+
+build ejercicio4: phony ejercicio4.exe
+
+build ejercicio5: phony ejercicio5.exe
+
+build ejercicio6: phony ejercicio6.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +319,7 @@ build ContenedoresDinamicos: phony ContenedoresDinamicos.exe
 #############################################
 # Folder: C:/Users/ACER/CLionProjects/untitled2/ContenedoresDinamicos/cmake-build-debug
 
-build all: phony ContenedoresDinamicos.exe
+build all: phony ContenedoresDinamicos.exe ejercicio1.exe ejercicio2.exe ejercicio3.exe ejercicio4.exe ejercicio5.exe ejercicio6.exe
 
 # =============================================================================
 # Built-in targets
